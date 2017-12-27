@@ -1,3 +1,6 @@
+// preload
+$('<img>').attr('src', 'stamp.png');
+
 $(function() {
   var stampCard = $('.stamp-card');
   var createSquare = function (d, stamp, current) {
